@@ -12,7 +12,11 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
-<!-- My CSS -->
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- My CSS -->
         <link rel="stylesheet" href="my-css.css">
 
     <title>My Portfolio | Yulianto 93</title>
@@ -53,9 +57,9 @@
 
     <!-- jumbotron -->
     <section class="jumbotron text-center">
-        <img src="img/yuli.png" alt="kwon yuli" width="200" class="rounded-circle img-thumbnail">
+        <img src="img/yuli.png" alt="kwon yuli" width="200" class="rounded-circle img-thumbnail" >
         <h1 class="display-4">Yulianto 93</h1>
-        <p class="lead">Bootstrap | M E R N | Laravel</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,32L34.3,42.7C68.6,53,137,75,206,112C274.3,149,343,203,411,208C480,213,549,171,617,144C685.7,117,754,107,823,117.3C891.4,128,960,160,1029,181.3C1097.1,203,1166,213,1234,186.7C1302.9,160,1371,96,1406,64L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
@@ -74,11 +78,11 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <p>Kwon Yuli adalah anak Korea yang menjadi selebgram di usianya yang baru 8 tahun. Orantua Yuli yang mengelola akun sosial
                     medianya dan sudah memposting kegiatan Yuli sejak ia masih bayi</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
                     <p>Saat ini wajah imut, Yuli bahkan diabadikan menjadi stiker untuk layanan pesang singkat WhatsApp. Pengguna bisa
                     mengunduh stiker yang berisikan berbagai macam ekspresi Yuli untuk mewakili emosi si pengguna.</p>
                 </div>
@@ -90,7 +94,7 @@
             </path>
         </svg>
     </section>
-    <!-- akhir about -->
+    <!-- akhir about --> 
 
 
     <!-- projects -->
@@ -103,7 +107,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card" >
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/portfolio/1.png" class="card-img-top" alt="project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -112,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100" >
                         <img src="img/portfolio/2.png" class="card-img-top" alt="project 2">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -121,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/portfolio/3.png" class="card-img-top" alt="project 3">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -130,7 +134,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/portfolio/4.png" class="card-img-top" alt="project 4">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -139,7 +143,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/portfolio/5.png" class="card-img-top" alt="project 5">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -156,6 +160,70 @@
         </svg>
     </section>
     <!-- akhir projects -->
+
+    <!-- gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+             <div class="col">
+                <h2>Gallery</h2>
+             </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/1.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/2.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/3.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/4.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/5.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/6.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/2.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/1.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/3.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="">
+                        <img src="img/portfolio/6.png" alt="gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir gallery -->
 
 
 <!-- contact -->
@@ -226,6 +294,41 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+
+
+   
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.gallery-img');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        })
+
+
+        AOS.init({
+            once : true,
+            duration : 2000,
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+
+
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Bootstrap | MERN | Laravel | MySQL'})
+        gsap.from('.jumbotron img', {duration: 1, rotateY :360, opacity: 0});
+        gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+        gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back'});
+
+    </script>
+
+
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwhGu8XlJIgWEyG38W40J6SPtyuJA8ST6R0lFj0mNofHuw3s5NLjFhRyzw_lEnNceh2/exec'
         const form = document.forms['contact-form']
