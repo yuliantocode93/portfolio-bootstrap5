@@ -19,8 +19,8 @@ section {
   padding: 0;
 }
 
-/* my keyboard section */
-.keyboard-box {
+/* my komponen section */
+.komponen-box {
   position: relative;
   background-color: #0c6efd;
   border-radius: 10px;
@@ -28,7 +28,7 @@ section {
   transform-style: preserve-3d;
 }
 
-.keyboard-box::before {
+.komponen-box::before {
   content: "MY";
   position: absolute;
   color: #fff;
@@ -42,12 +42,12 @@ section {
   transition: 0.5s;
 }
 
-.keyboard-box:hover::before {
+.komponen-box:hover::before {
   opacity: 0.2;
 }
 
-.keyboard-box::after {
-  content: "KEYBOARD";
+.komponen-box::after {
+  content: "LAPTOP";
   position: absolute;
   color: #fff;
   font-size: 4em;
@@ -60,11 +60,11 @@ section {
   transition: 0.5s;
 }
 
-.keyboard-box:hover::after {
+.komponen-box:hover::after {
   opacity: 0.2;
 }
 
-.keyboard-name {
+.komponen-name {
   position: absolute;
   top: 0;
   width: 100%;
@@ -76,12 +76,12 @@ section {
   transform: translate3d(0, 0, 50px);
 }
 
-.keyboard-box:hover .keyboard-name {
+.komponen-box:hover .komponen-name {
   top: 20px;
   opacity: 1;
 }
 
-.keyboard-detail-button {
+.komponen-detail-button {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -90,12 +90,12 @@ section {
   transition: 0.5s;
 }
 
-.keyboard-box:hover .keyboard-detail-button {
+.komponen-box:hover .komponen-detail-button {
   opacity: 1;
   bottom: 20px;
 }
 
-.keyboard-img {
+.komponen-img {
   position: absolute;
   top: 52%;
   left: 50%;
@@ -105,6 +105,6 @@ section {
   z-index: 2;
 }
 
-.keyboard-box:hover .keyboard-img {
+.komponen-box:hover .komponen-img {
   transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
 }
