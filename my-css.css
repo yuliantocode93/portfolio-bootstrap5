@@ -7,6 +7,11 @@
   background-color: #e2edff;
 }
 
+/* Jarak antara gallery/skills dengan footer */
+#skills {
+  margin-bottom: 60px;
+}
+
 section {
   padding-top: 5rem;
 }
